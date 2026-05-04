@@ -23,14 +23,17 @@ function Footer() {
                     <p>123 Finance Street, Business District</p>
                     <p>Email: lamidiabdulhameedolawale@gmail.com</p>
                     <p>Phone: (234)9137632195</p>
-                </div>
-            </div>
-            <div className="footer-contact">
+                </div> 
+                <div className="footer-contact">
                 <h3>Support</h3>
-                    <p><a href="/contact">Contact Us</a></p>
-                    <p><a href="/privacy">Privacy Policy</a></p >
-                    <p><a href="/terms">Terms of Service</a></p>            
+                <ul>
+                    <li><a href="/contact">Contact Us</a></li>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Service</a></li>
+                </ul>
             </div>
+            </div>
+           
         </div>
         <div className="footer-bottom">
             <p>&copy; 2026 Loan Application. All rights reserved.</p>
